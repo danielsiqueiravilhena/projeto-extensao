@@ -6,32 +6,47 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #4169E1;
+            background-color: #FFFFFF;
             margin: 0;
             padding: 0;
         }
         header {
-            background-color: #000080;
+            background-color: #000080; /* azul marinho */
             color: white;
             padding: 20px;
             text-align: center;
         }
+
+        /* seção azul royal */
+        .secao-azul {
+            background-color: #4169E1;
+            color: white;
+        }
+
         section {
             padding: 20px;
             max-width: 800px;
             margin: auto;
-            background: white;
             margin-top: 20px;
             border-radius: 10px;
         }
-        h2 {
-            color: #FFFFFF;
+
+        /* seções padrão (brancas) */
+        .secao-branca {
+            background: white;
+            color: black;
         }
+
+        h2 {
+            margin-top: 0;
+        }
+
         iframe {
             width: 100%;
             height: 500px;
             border: none;
         }
+
         footer {
             text-align: center;
             padding: 10px;
@@ -47,7 +62,7 @@
     <p>Projeto Extensionista - Inclusão Digital</p>
 </header>
 
-<section>
+<section class="secao-azul">
     <h2>Sobre o Projeto</h2>
     <p>
         Este projeto tem como objetivo orientar pessoas idosas sobre segurança digital,
@@ -55,18 +70,18 @@
     </p>
 </section>
 
-<section>
+<section class="secao-branca">
     <h2>Vídeo Educativo</h2>
     <p>Assista ao vídeo abaixo antes de responder o formulário:</p>
 
     <iframe src="https://www.youtube.com/embed/Zi7svfcXNyE" allowfullscreen></iframe>
 </section>
 
-<section>
+<section class="secao-branca">
     <h2>Formulário</h2>
     <p>Responda ao formulário abaixo:</p>
 
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdq6mhvkacMsgJYNQNTIf2wc7uSP41NQB9kMiQh0YMlFsbOVA/viewform?embedded=true" width="640" height="1440" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdq6mhvkacMsgJYNQNTIf2wc7uSP41NQB9kMiQh0YMlFsbOVA/viewform?embedded=true"></iframe>
 </section>
 
 <footer>
